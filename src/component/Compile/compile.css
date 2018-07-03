@@ -1,0 +1,19 @@
+.loginBox{
+  height: 44px;
+  line-height: 44px;
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 1.4rem;
+  color: #555;
+  padding: 0 15px;
+}
+.loginBox span:last-of-type{
+  float: right; 
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 6px;
+  color: #00b38a;
+  border-radius: 15px;
+  padding: 0 20px;
+  background: #f5f5f5;
+}

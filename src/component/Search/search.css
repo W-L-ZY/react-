@@ -1,0 +1,75 @@
+.search{
+  width: 100%;
+}
+.search_inp{
+  height: 45px;
+  border-bottom: 1px solid #e8e8e8;
+  /* display: block; */
+}
+.search_inp .search_left{
+  height: 45px;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 45px;
+  width: 88px;
+  border-right: 1px solid #e8e8e8;
+  float: left;
+}
+.search_inp .search_left .city_icon{
+  width: 8px;
+  height: 7px;
+  background: url("https://www.lgstatic.com/images/mobile/asset/common/img/icon.png") no-repeat -1px -2.5px;
+  background-size: 250px 250px;
+  display: inline-block;
+  margin-left: 5px;
+}
+.search_inp .search_right{
+  height: 45px;
+  margin-left: 89px;
+  display: flex;
+  font-size: 1.5rem;  
+}
+.search_inp .search_right input{
+  border: 0;
+  outline: none;
+  padding-left: 10px;
+  height: 45px;
+  line-height: 45px;
+  background: none;
+  flex: 1;
+}
+.search .search_right .search_right_icon{
+  border-left: 1px solid #e8e8e8;
+  height: 45px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+}
+.search_right .search_right_icon span{
+  background: url("https://www.lgstatic.com/images/mobile/asset/common/img/icon.png") no-repeat -14px -2px;
+  background-size: 250px 250px;
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  align-self: center;
+}
+.search .home_list{
+  margin-bottom: 40px;
+  display: none;
+}
+.search .home_list .no_search_list{
+  margin-top: 40px;
+  text-align: center;
+  /* display: none; */
+  color: #c2cfcc;
+  font-size: 1.5rem;
+}
+.search .home_list .search_tj{
+  margin: 15px 0;
+  text-align: center;
+  background: #e7f7f3;
+  color: #5d897e;
+  font-size: 1.4rem;
+  height: 35px;
+  line-height: 35px;
+}

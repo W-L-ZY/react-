@@ -1,0 +1,38 @@
+.avire_class{
+  position: fixed;
+  display: block;
+  width: 100%;
+  background: rgba(14,14,14,.9);
+  bottom: 45px;
+  left: 0;
+}
+.adver_left{
+  position: absolute;
+  left: 2.5%;
+  top: -21px;
+  width: 14%;
+}
+.adver_right{
+  position: absolute;
+  right: 2.5%;
+  width: 9%;
+  padding: 2%;
+  border-radius: 100%;
+  top: -17px;
+  background: linear-gradient(to bottom, rgba(14,14,14,0.9) 0, rgba(14,14,14,0.9) 50%, rgba(14,14,14,0) 51%, rgba(14,14,14,0) 100%);
+}
+.adver_content{
+  display: flex;
+  padding: 10px 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+.adver_content .adver_content_left{
+  width: 12%;
+}
+.adver_content .adver_content_center{
+  width: 52%;
+}
+.adver_content .adver_content_right{
+  width: 27.5%;
+}

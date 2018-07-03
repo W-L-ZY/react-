@@ -1,0 +1,61 @@
+.signed{
+  padding: 0 12px;
+}
+.signed .signed_msg{
+  height: 111px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 30px;
+}
+.signed .signed_msg>span{
+  font-size: 1.4rem;
+  color: #1fc8a1;
+  position: absolute;
+  right: 0px;
+  top: 5px;
+}
+.signed .signed_msg .signed_msg_pic{
+  overflow: hidden; 
+  width: 81px;
+  height: 81px;
+  border-radius: 40.5px;
+}
+.signed .signed_msg .signed_msg_name{
+  color: #333;
+  height: 22px;
+  line-height: 22px;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+.signed .signed_type{
+  overflow: hidden;
+  margin-top: 10px;
+}
+.signed .signed_type div{
+  background: #1fc8a1;
+  margin-top: 10px;
+  height: 86px;  
+  line-height: 86px;
+  color: #fff;
+  width: 48%;
+  font-size: 1.6rem;
+  text-align: center;
+  float: left;
+}
+.signed .signed_type .right{
+  margin-left: 14px;
+}
+.signed button{
+  width: 100%;
+  border-radius: 3px;
+  background: #1fc8a1;
+  border: 0;
+  color: #fff;
+  font-size: 1.5rem;
+  height: 40px;
+  margin-top: 10px;
+}

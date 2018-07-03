@@ -1,0 +1,31 @@
+// 引入express
+let express = require( 'express' );
+let bodyParser = require( 'body-parser' );
+
+let adminRouter = require( '../route/admin' );
+// 引入MySQL
+let db = require( './mySql' );
+
+// 将express的返回值赋给app
+let app = express();
+
+//设置跨域访问
+app.all('*', function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "X-Requested-With");
+  res.header("Access-Control-Allow-Methods","PUT,POST,GET,DELETE,OPTIONS");
+  res.header("X-Powered-By",' 3.2.1');
+  res.header("Content-Type", "application/json;charset=utf-8");
+  next();
+});
+
+app.use( bodyParser.urlencoded({
+  extended: false
+}) );
+app.use( bodyParser.json() );
+
+app.use( '/',adminRouter );
+
+app.listen( '4000',function(){
+  console.log( 'start' );
+})

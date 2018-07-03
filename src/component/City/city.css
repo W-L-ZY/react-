@@ -1,0 +1,53 @@
+
+.city{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-bottom: 45px;
+  /* display: none; */
+}
+.city_headBox{
+  height: 45px;
+  background: #00b38a;
+  text-align: center;
+  color: #fff;
+  line-height: 45px;
+  font-size: 1.8rem;
+  position: relative;
+}
+.city_headBox .city_headBox_left{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 100%;
+}
+.city_headBox .city_headBox_left span{
+  width: 10px;
+  height: 20px;
+  background: url("https://www.lgstatic.com/images/mobile/asset/common/img/icon.png") no-repeat -1px -19px;
+  background-size: 250px 250px;
+  display: inline-block;
+  margin: 13px auto 0 auto;
+}
+.city_list .city_list_title{
+  border-bottom: 1px solid #e8e8e8;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 15px;
+  font-size: 1.2rem;
+  color: #888;
+}
+.city_list .city_list_hot{
+  overflow: hidden;
+  border-bottom: 1px solid #e8e8e8;
+}
+.city_list .city_list_hot li{
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+  width: 33.33%;
+  float: left;
+}
